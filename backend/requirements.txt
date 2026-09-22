@@ -1,0 +1,29 @@
+# Core FastAPI
+fastapi
+uvicorn[standard]
+pydantic
+
+# File uploads / HTTP testing
+python-multipart
+httpx
+
+# Image processing
+Pillow
+
+# Database
+sqlalchemy>=2.0
+psycopg2-binary
+
+# Testing
+pytest
+
+# PDF reports
+reportlab
+
+# Authentication
+pwdlib[argon2]
+PyJWT
+python-dotenv
+
+# API rate limiting
+slowapi
