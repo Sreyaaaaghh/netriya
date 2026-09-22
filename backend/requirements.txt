@@ -3,22 +3,18 @@ fastapi
 uvicorn[standard]
 pydantic
 
-# File uploads / HTTP testing
+# File uploads / HTTP
 python-multipart
 httpx
 
 # Image processing
 Pillow
+numpy
+opencv-python-headless
 
 # Database
 sqlalchemy>=2.0
 psycopg2-binary
-
-# Testing
-pytest
-
-# PDF reports
-reportlab
 
 # Authentication
 pwdlib[argon2]
@@ -27,3 +23,9 @@ python-dotenv
 
 # API rate limiting
 slowapi
+
+# Machine Learning
+tensorflow==2.21.0
+
+# PDF reports
+reportlab
