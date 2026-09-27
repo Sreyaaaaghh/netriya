@@ -17,9 +17,10 @@ _ROOT_DIR = os.path.dirname(
 )
 
 STORAGE_ROOT = os.path.join(
-    _ROOT_DIR,
+    "/tmp",
     "storage",
 )
+
 
 UPLOADS_DIR = os.path.join(
     STORAGE_ROOT,
