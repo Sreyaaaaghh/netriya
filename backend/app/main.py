@@ -128,4 +128,4 @@ def root():
             "APP_VERSION", 
             "1.0.0", 
         ), 
-    } - main.py
+    } 
